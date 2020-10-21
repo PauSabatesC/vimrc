@@ -139,6 +139,10 @@ You can also install your plugins, for instance, via pathogen you can install [v
 
 	cd ~/.vim_runtime
 	git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
+	
+	(PYTHON AUTOCOMPLETE)
+	cd ~/.vim_runtime
+	git clone --recursive https://github.com/davidhalter/jedi-vim.git my_plugins/jedi-vim
 
 
 ## Key Mappings
