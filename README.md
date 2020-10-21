@@ -137,13 +137,22 @@ After you have installed the setup, you can create **~/.vim_runtime/my_configs.v
 
 You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
 
+	(RAILS AUTOCOMPLETE)
 	cd ~/.vim_runtime
 	git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
 	
 	(PYTHON AUTOCOMPLETE)
 	cd ~/.vim_runtime
 	git clone --recursive https://github.com/davidhalter/jedi-vim.git my_plugins/jedi-vim
-
+	
+	(TYPESCRIPT AUTOCOMPLETE)
+	cd ~/.vim_runtime
+	git clone https://github.com/leafgarland/typescript-vim.git my_plugins/typescript-vim
+	
+	(C# AUTOCOMPLETE)
+	cd ~/.vim_runtime
+	git clone git://github.com/OmniSharp/omnisharp-vim ~/.vim/bundle/omnisharp-vim
+	
 
 ## Key Mappings
 
