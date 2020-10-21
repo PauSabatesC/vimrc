@@ -380,52 +380,46 @@ Maintaining this Vim configuration isn't my day job. Daily I am the founder/CEO 
 PS: Using Vim isn't a requirement 😄
 
 # PERSONAL NOTES
-===============================================
-	Tabs
-===============================================
+
+- Tabs
 Nova pestanya --> :tabe nom.txt
 tancar --> :tabc  o  :q
 cambiar --> :tabn o tabp   o   g t
 
 
-===============================================
- 	Sessions
-===============================================
+
+- Sessions
+
 Crear    --> :mks nom.vim
 Carregar --> vim -S nom.vim
 Guardar canvis --> :mks! nom.vim
 
 
-===============================================
-	autocomplete
-===============================================
+- autocomplete
 ctrl + n
 
 
-===============================================
-	copy paste
-===============================================
+
+- copy paste
+
 cortar --> 'd' o 'dd'
 copiar --> 'y' o 'yy'
 pegar  --> p
 
 
-===============================================
-	Buscar
-===============================================
+- Buscar
+
 :set ignorecase
 :/paraula
 'n' --> seguent paraula
 
-===============================================
-	Vertical Split
-===============================================
+- Vertical Split
+
 :vs
 ctrl+w ctrl+w --> moure entre pantalles
 ctrl+ww--> move to nerdtree
-===============================================
-	When located in folder tree 'vim carpeta/'
-===============================================
+
+- When located in folder tree 'vim carpeta/'
 press 't' --> to open file in another tab
 ctrl-o --> go back
 
