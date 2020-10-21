@@ -378,3 +378,57 @@ Just do following:
 Maintaining this Vim configuration isn't my day job. Daily I am the founder/CEO of [Doist](https://doist.com/). You could come and help us build the workplace of the future while living a balanced life (anywhere in the world 🌍🌎🌏).
 
 PS: Using Vim isn't a requirement 😄
+
+# PERSONAL NOTES
+===============================================
+	Tabs
+===============================================
+Nova pestanya --> :tabe nom.txt
+tancar --> :tabc  o  :q
+cambiar --> :tabn o tabp   o   g t
+
+
+===============================================
+ 	Sessions
+===============================================
+Crear    --> :mks nom.vim
+Carregar --> vim -S nom.vim
+Guardar canvis --> :mks! nom.vim
+
+
+===============================================
+	autocomplete
+===============================================
+ctrl + n
+
+
+===============================================
+	copy paste
+===============================================
+cortar --> 'd' o 'dd'
+copiar --> 'y' o 'yy'
+pegar  --> p
+
+
+===============================================
+	Buscar
+===============================================
+:set ignorecase
+:/paraula
+'n' --> seguent paraula
+
+===============================================
+	Vertical Split
+===============================================
+:vs
+ctrl+w ctrl+w --> moure entre pantalles
+ctrl+ww--> move to nerdtree
+===============================================
+	When located in folder tree 'vim carpeta/'
+===============================================
+press 't' --> to open file in another tab
+ctrl-o --> go back
+
+
+
+
