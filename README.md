@@ -289,6 +289,9 @@ Open [ctrlp.vim](https://github.com/kien/ctrlp.vim) plugin to quickly find a fil
     map <leader>nn :NERDTreeToggle<cr>
     map <leader>nb :NERDTreeFromBookmark 
     map <leader>nf :NERDTreeFind<cr>
+Also for moving back and forwart to nerdtree: <cntrl> + ww
+And for moving between tabs <cntrl> + w
+
 
 [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2) lets you only focus on one thing at a time. It removes all the distractions and centers the content. It has a special look when editing Markdown, reStructuredText and textfiles. It only has one mapping. (`<leader>z`)
 
